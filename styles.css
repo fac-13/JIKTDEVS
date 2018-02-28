@@ -1,0 +1,8 @@
+.navigation-bar{
+    list-style: none;
+    display: inline-block;
+  }
+
+.navigation-bar li {
+    display: inline;
+  }
