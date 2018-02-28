@@ -2,7 +2,7 @@
 
 ## Brief
 
-### Our team will build a one-page portfolio website for you and your team
+### We will build a one-page portfolio website for our team
 
 #### User stories:
 
