@@ -2,11 +2,9 @@
 
 ## Brief
 
-### Build a one-page portfolio website for you and your team
+### Our team will build a one-page portfolio website for you and your team
 
-We want you to work together over the next few days to build a small site from scratch that provides a short portfolio for you and your team.
-
-To describe what features should be implemented, these are the [user stories](https://en.wikipedia.org/wiki/User_story) that should be satisfied;
+#### User stories:
 
 As a **client looking to hire a team of developers**
 
