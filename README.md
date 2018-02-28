@@ -56,9 +56,3 @@ As a **client with JavaScript disabled in their browser for security reasons**
 
 > so that I **don't feel like I'm completely in the stone age**.
 
-
-
-
-## Page inspiration
-
-### Color Palette
