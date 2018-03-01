@@ -271,4 +271,8 @@ main{
     transform-origin: 50% 50%;
     animation:spin 14s linear infinite;
   }
+
+  .icon{
+    font-size: 1.5rem;
+  }
   @keyframes spin { 100% {transform: rotate(360deg); } }
