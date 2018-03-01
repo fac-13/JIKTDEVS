@@ -176,3 +176,11 @@ main{
     background-color: #1C2541;
     outline:none;
   }
+  .form__input-submit:hover{
+    box-shadow: 0 0 10px #fff;
+    cursor: pointer;
+  }
+
+  .form__input-submit:active{
+    transform: scale(1.03);
+  }
