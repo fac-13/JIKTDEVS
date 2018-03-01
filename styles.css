@@ -18,7 +18,7 @@ body{
   }
 
 .nav{
-   background-color: rgba(0, 144, 193, 1);
+   background-color: rgba(28, 37, 65, 0.8);
    display: grid;
    grid-template-columns: 200px auto 400px;
 }
@@ -58,7 +58,7 @@ main{
 }
 
 .header{
-  background-image: linear-gradient(rgba(0, 144, 193, 0.6), rgba(0, 144, 193, 0.6)), url("https://www.desktopbackground.org/download/1024x768/2010/09/12/78894_hacking-program-wallpapers-desktop_1920x1080_h.jpg");
+  background-image: linear-gradient(rgba(28, 37, 65, 0.5), rgba(28, 37, 65, 0.5)), url("https://www.desktopbackground.org/download/1024x768/2010/09/12/78894_hacking-program-wallpapers-desktop_1920x1080_h.jpg");
   max-width: 100%;
   margin: 0;
   background-size: cover;
@@ -148,7 +148,7 @@ main{
 }
 
 /* Individual section ids */
-#header {
+/* #header {
   background-color: #183446;
 }
 #about {
@@ -160,7 +160,7 @@ main{
 }
 #contact {
   background-color: #0090C1;
-}
+} */
 
 #contact h2 {
   margin: 100px 0px;
