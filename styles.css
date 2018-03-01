@@ -65,23 +65,21 @@ main{
 }
 
 
-  a {
+  .nav__link {
    text-decoration: none;
    color:#fff;
   }
-  a :visited {
+  .nav__link :link {
     color: #fff;
   }
-  a :hover{
+  .nav__link :visited {
+    color: #fff;
+  }
+  .nav__link :hover{
     color: #fff;
     cursor: pointer;
   }
-  a :visited {
-    color: #fff;
-  }
-  a :link {
-    color: #fff;
-  }
+
 
   /*Styles for the contact form*/
 
