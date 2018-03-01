@@ -105,7 +105,18 @@ main{
   border-radius: 50%;
 }
 
+@media only screen and (min-width: 768px) {
+  .teamctr{
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .teamctr__member{
+  max-width: 46%;
+  margin: 15px 1%;
+  }
+}
 
+/* Individual section ids */
 #header {
   background-color: #183446;
 }
@@ -138,6 +149,7 @@ main{
   .nav__link :active {
     color: #fff;
   }
+
 
 
   /*Styles for the contact form*/
