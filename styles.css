@@ -94,8 +94,8 @@ main{
   font-size: 1rem;
   max-width: 80%;
 }
-#team {
-
+#team h2{
+  margin: 100px 0px;
 }
 
 .membername{
@@ -165,6 +165,10 @@ main{
 }
 #contact {
   /* background-color: #0090C1; */
+}
+
+#contact h2 {
+  margin: 100px 0px;
 }
 
 
