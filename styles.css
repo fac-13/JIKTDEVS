@@ -292,6 +292,8 @@ main{
     transform: scale(1.03);
   }
 
+
+
   .logo{
     transform-origin: 50% 50%;
     animation:spin 14s linear infinite;
@@ -299,5 +301,14 @@ main{
 
   .icon{
     font-size: 1.5rem;
+  }
+
+  .icon:hover{
+    text-shadow: 0 0 10px #1C2541;
+    cursor: pointer;
+  }
+
+  .icon:active{
+    transform: scale(1.03);
   }
   @keyframes spin { 100% {transform: rotate(360deg); } }
