@@ -151,9 +151,6 @@ main{
 #header {
   background-color: #183446;
 }
-#about {
-  background-color: #046E8F;
-}
 #team {
   background-color: #1B3B6F;
   height: auto;
@@ -246,3 +243,9 @@ main{
   .form__input-submit:active{
     transform: scale(1.03);
   }
+
+  .logo{
+    transform-origin: 50% 50%;
+    animation:spin 14s linear infinite;
+  }
+  @keyframes spin { 100% {transform: rotate(360deg); } }
