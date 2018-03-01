@@ -52,7 +52,6 @@ main{
 }
 
 #team {
-  height: auto;
 
 }
 
@@ -96,6 +95,7 @@ main{
 }
 #team {
   background-color: #1B3B6F;
+  height: auto;
 }
 #contact {
   background-color: #0090C1;
