@@ -56,6 +56,14 @@ main{
 
 }
 
+.membername{
+  font-size: 2rem;
+}
+
+.memberrole{
+  font-size: 1.5rem;
+}
+
 .teamctr{
   display: flex;
   flex-direction: column;
@@ -63,7 +71,7 @@ main{
 }
 
 .teamctr__member{
-  background: gray;
+  /* background: gray; */
   margin: 15px 0;
 }
 
@@ -76,6 +84,7 @@ main{
 .teamctr__member img {
   max-width: 100%;
   max-height: 100%;
+  border-radius: 50%;
 }
 
 
