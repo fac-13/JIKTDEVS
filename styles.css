@@ -51,6 +51,25 @@ main{
   text-align: center;
 }
 
+.header{
+  background-image: linear-gradient(rgba(0, 144, 193, 0.6), rgba(0, 144, 193, 0.6)), url("https://www.desktopbackground.org/download/1024x768/2010/09/12/78894_hacking-program-wallpapers-desktop_1920x1080_h.jpg");
+  max-width: 100%;
+  margin: 0;
+  background-size: cover;
+  background-position: center;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__hidden{
+  display: none;
+}
+
+.header__text{
+  font-size: 4rem;
+  text-shadow: -3px 3px 0 #1C2541;
+}
 #team {
 
 }
