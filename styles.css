@@ -51,6 +51,34 @@ main{
   text-align: center;
 }
 
+#team {
+  height: auto;
+
+}
+
+.teamctr{
+  display: flex;
+  flex-direction: column;
+  margin: 30px 30px;
+}
+
+.teamctr__member{
+  background: gray;
+  margin: 15px 0;
+}
+
+.teamctr__member a {
+  display: inline-block;
+  margin: 10px;
+}
+
+
+.teamctr__member img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+
 #header {
   background-color: #183446;
 }
