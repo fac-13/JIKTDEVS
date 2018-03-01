@@ -45,9 +45,28 @@
             <div class="#"></div>
         </section>
     
+
         <section id="contact" class="section">
-            <h2>Contact info will go here</h2>
+            <div class="form-container">
+                <h2>Contact Form</h2>
+                <form action="https://formspree.io/katiapunter@gmail.com" method="POST">
+                    <div class="form-container__input-container">
+                        <input type="text" name="name" id="name" required="">
+                        <label for="name">Name</label>
+                    </div>
+                    <div class="form-container__input-container">
+                        <input type="text" name="_replyto" id="email" required="">
+                        <label for="email">E-mail</label>
+                    </div>
+                    <div class="form-container__input-container">
+                        <input type="text" name="message" id="message" required="">
+                        <label for="message">Message</label>
+                    </div>
+                    <input class="form__input-submit" type="submit" name="" value="Send">
+                </form>
+            </div>
         </section>
+
     
     </main>
     

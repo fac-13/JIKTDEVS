@@ -82,3 +82,59 @@ main{
   a :link {
     color: #fff;
   }
+
+  /*Styles for the contact form*/
+
+  .form-container{
+    width: 100%;
+    padding: 40px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    /* box-shadow: 0 10px 10px rgba(0,0,0,.2); */
+    border-radius: 10px;
+  }
+  .form-container h2{
+    text-align: center;
+    margin: 0 0 30px;
+    color: #fff;
+  }
+  .form-container__input-container{
+    position: relative;
+  }
+  .form-container__input-container input{
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px 0 10px 10px;
+    font-size: 16px;
+    color: #000;
+    margin-bottom: 30px;
+    border: none;
+    outline: none;
+  }
+  .form-container__input-container label{
+    position: absolute;
+    top: 0;
+    left: 0;
+    letter-spacing: 3px;
+    padding: 10px 10px 10px 10px;
+    font-size: 16px;
+    color: #000;
+    pointer-events: none;
+    transition: 0.5s;
+  }
+  .form-container__input-container input:focus ~ label,
+  .form-container__input-container input:valid ~ label{
+    top:-29px;
+    left:0;
+    color: #fff;
+    font-size: 14px;
+  }
+  .form__input-submit{
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    color: #fff;
+    padding: 10px 10px 10px 10px;
+    background-color: #1C2541;
+    outline:none;
+  }
