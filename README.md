@@ -1,6 +1,8 @@
 # JIKTDEV
 We are a team of developers this is our one page website portfolio to reveal skills you will get for your development needs. We have created this as a means for you to contact us to take your enquiry further.
 
+https://fac-13.github.io/JIKTDEVS/
+
 ## Useful features for your concern
 - We have ensured our website is accessable to visually impared and blind users, so your website can reach a wider audience.
 - We took a mobile first approach so the website is easily viewable on mobile phones, tablets and desktops.

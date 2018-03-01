@@ -18,9 +18,8 @@ body{
   }
 
 .nav{
-   background-color: rgba(0, 144, 193, 1);
-   display: grid;
-   grid-template-columns: 200px auto 400px;
+   background-color: rgba(28, 37, 65, 0.8);
+   display: flex;
 }
 #logo{
  font-size: 2.5rem;
@@ -30,6 +29,7 @@ body{
  display: flex;
  justify-content: center;
  align-items: center;
+ flex-wrap: wrap;
 }
 
 .sticky {
@@ -58,12 +58,13 @@ main{
 }
 
 .header{
-  background-image: linear-gradient(rgba(0, 144, 193, 0.6), rgba(0, 144, 193, 0.6)), url("https://www.desktopbackground.org/download/1024x768/2010/09/12/78894_hacking-program-wallpapers-desktop_1920x1080_h.jpg");
+  background-image: linear-gradient(rgba(28, 37, 65, 0.5), rgba(28, 37, 65, 0.5)), url("https://www.desktopbackground.org/download/1024x768/2010/09/12/78894_hacking-program-wallpapers-desktop_1920x1080_h.jpg");
   max-width: 100%;
   margin: 0;
   background-size: cover;
   background-position: center;
   display:flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -75,6 +76,10 @@ main{
 .header__text{
   font-size: 4rem;
   text-shadow: -3px 3px 0 #1C2541;
+}
+
+.header__subtitle {
+  font-size: 2rem;
 }
 
 .about{
@@ -89,8 +94,8 @@ main{
   font-size: 1rem;
   max-width: 80%;
 }
-#team {
-
+#team h2{
+  margin: 100px 0px;
 }
 
 .membername{
@@ -149,14 +154,24 @@ main{
 
 /* Individual section ids */
 #header {
-  background-color: #183446;
+  /* background-color: #183446; */
 }
+
+=======
+#about {
+  /* background-color: #046E8F; */
+}
+
 #team {
-  background-color: #1B3B6F;
+  /* background-color: #1B3B6F; */
   height: auto;
 }
 #contact {
-  background-color: #0090C1;
+  /* background-color: #0090C1; */
+}
+
+#contact h2 {
+  margin: 100px 0px;
 }
 
 
