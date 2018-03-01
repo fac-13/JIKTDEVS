@@ -79,6 +79,9 @@ main{
     color: #fff;
     cursor: pointer;
   }
+  .nav__link :active {
+    color: #fff;
+  }
 
 
   /*Styles for the contact form*/
