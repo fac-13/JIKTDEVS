@@ -70,6 +70,18 @@ main{
   font-size: 4rem;
   text-shadow: -3px 3px 0 #1C2541;
 }
+
+.about{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.about__content{
+  line-height: 2rem;
+  padding: 2rem;
+  font-size: 1rem;
+}
 #team {
 
 }
