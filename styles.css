@@ -51,6 +51,12 @@ main{
   text-align: center;
 }
 
+@media only screen and (min-width:1100px;\){
+  .section{
+    max-width: 70%;
+  }
+}
+
 .header{
   background-image: linear-gradient(rgba(0, 144, 193, 0.6), rgba(0, 144, 193, 0.6)), url("https://www.desktopbackground.org/download/1024x768/2010/09/12/78894_hacking-program-wallpapers-desktop_1920x1080_h.jpg");
   max-width: 100%;
@@ -105,6 +111,7 @@ main{
   border-radius: 50%;
 }
 
+
 @media only screen and (min-width: 768px) {
   .teamctr{
     flex-direction: row;
@@ -113,6 +120,17 @@ main{
   .teamctr__member{
   max-width: 46%;
   margin: 15px 1%;
+  }
+}
+
+@media only screen and (min-width: 1100px) {
+  .teamctr{
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .teamctr__member{
+  max-width: 23%;
+  margin:1%;
   }
 }
 
@@ -132,17 +150,17 @@ main{
 }
 
 
-  .nav__link {
+  .nav__link, .team__link {
    text-decoration: none;
    color:#fff;
   }
-  .nav__link :link {
+  .nav__link :link, .team__link :link {
     color: #fff;
   }
-  .nav__link :visited {
+  .nav__link :visited, .team__link :visited {
     color: #fff;
   }
-  .nav__link :hover{
+  .nav__link :hover, .team__link :hover{
     color: #fff;
     cursor: pointer;
   }
