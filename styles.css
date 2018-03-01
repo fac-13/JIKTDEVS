@@ -96,6 +96,9 @@ main{
 }
 #team h2{
   margin: 100px 0px;
+  /* color: rgb(224, 104, 0); */
+  font-size: 4rem;
+  letter-spacing: 0.0425em;
 }
 
 .membername{
@@ -110,16 +113,22 @@ main{
   display: flex;
   flex-direction: column;
   margin: 30px 30px;
+  max-width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
 }
 
 .teamctr__member{
   /* background: gray; */
   margin: 15px 0;
+  border-radius: 5%
 }
 
 .teamctr__member a {
   display: inline-block;
   margin: 10px;
+  color: white;
 }
 
 
@@ -127,10 +136,24 @@ main{
   max-width: 100%;
   max-height: 100%;
   border-radius: 50%;
+  opacity: 0.75;
+  /* border: 1.5px solid rgb(224, 104, 0); */
 }
 
+.teamctr__member img {
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  filter: grayscale(100%);
+  transition: all 0.5s ease;
+}
 
-@media only screen and (min-width: 768px) {
+.teamctr__member img:hover {
+  -webkit-filter: grayscale(0%);
+  -moz-filter: grayscale(0%);
+  filter: grayscale(0%);
+}
+
+@media only screen and (min-width: 600px) {
   .teamctr{
     flex-direction: row;
     flex-wrap: wrap;
@@ -165,6 +188,8 @@ main{
 #team {
   /* background-color: #1B3B6F; */
   height: auto;
+  background-color: #3A506B;
+  min-width: 100%;
 }
 #contact {
   /* background-color: #0090C1; */
