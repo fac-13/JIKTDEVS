@@ -145,6 +145,10 @@ main{
   color:#fff;
   }
 
+  .team__link :visited{
+    color:#fff;
+  }
+
   .team__link :hover{
   cursor: pointer;
   text-shadow: 0 0 10px #1C2541;
@@ -153,12 +157,6 @@ main{
   .team__link:active{
     color:#fff;
   }
-
-  .team__link :visited{
-    color:#fff;
-  }
-
-
 @media only screen and (min-width: 600px) {
   .teamctr{
     flex-direction: row;
@@ -213,16 +211,17 @@ main{
    text-decoration: none;
    color:#fff;
   }
+
+  .nav_link:visited{
+   color:#fff;
+  }
+
   .nav__link :hover{
    cursor: pointer;
    color:#fff;
   }
 
   .nav_link :active{
-   color:#fff;
-  }
-
-  .nav_link:visited{
    color:#fff;
   }
 
