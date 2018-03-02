@@ -163,6 +163,14 @@ main{
   text-shadow: 0 0 10px #1C2541;
   }
 
+  .team__link:active{
+    color:#fff;
+  }
+
+  .team__link :visited{
+    color:#fff;
+  }
+
 
 @media only screen and (min-width: 600px) {
   .teamctr{
@@ -220,11 +228,20 @@ main{
 
 
   .nav__link:link{
-  text-decoration: none;
-  color:#fff;
+   text-decoration: none;
+   color:#fff;
   }
   .nav__link :hover{
-  cursor: pointer;
+   cursor: pointer;
+   color:#fff;
+  }
+
+  .nav_link :active{
+   color:#fff;
+  }
+
+  .nav_link:visited{
+   color:#fff;
   }
 
 
