@@ -153,6 +153,17 @@ main{
   filter: grayscale(0%);
 }
 
+  .team__link:link {
+  text-decoration: none;
+  color:#fff;
+  }
+
+  .team__link :hover{
+  cursor: pointer;
+  text-shadow: 0 0 10px #1C2541;
+  }
+
+
 @media only screen and (min-width: 600px) {
   .teamctr{
     flex-direction: row;
@@ -208,23 +219,15 @@ main{
 }
 
 
-  .nav__link, .team__link {
-   text-decoration: none;
-   color:#fff;
+  .nav__link:link{
+  text-decoration: none;
+  color:#fff;
   }
-  .nav__link :link, .team__link :link {
-    color: #fff;
+  .nav__link :hover{
+  cursor: pointer;
   }
-  .nav__link :visited, .team__link :visited {
-    color: #fff;
-  }
-  .nav__link :hover, .team__link :hover{
-    color: #fff;
-    cursor: pointer;
-  }
-  .nav__link :active {
-    color: #fff;
-  }
+
+
 
 
 
@@ -303,12 +306,5 @@ main{
     font-size: 1.5rem;
   }
 
-  .icon:hover{
-    text-shadow: 0 0 10px #1C2541;
-    cursor: pointer;
-  }
 
-  .icon:active{
-    transform: scale(1.03);
-  }
   @keyframes spin { 100% {transform: rotate(360deg); } }
