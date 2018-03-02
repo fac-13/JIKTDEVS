@@ -19,3 +19,9 @@ https://fac-13.github.io/JIKTDEVS/
 3. We divided the tasks between two pairs HTML and CSS. With the wireframe the HTML pair started creating the skeleton. The CSS pair created a apt layout to be added to the HMTL file.
 
 4. The HTML repo was uploaded to GitHub, the CSS pair started adding style to the code.
+
+****01.03.18****
+
+1. We split the task between the features
+  - Katia & Ivi: Heading, About and Form
+  - Tom & Jenath: 4 divs flex-box responisve design
