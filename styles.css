@@ -277,7 +277,6 @@ main{
     color: #fff;
     padding: 10px 10px 10px 10px;
     background-color: #450029;
-    opacity: 0.5;
     outline:none;
   }
   .form__input-submit:hover{
