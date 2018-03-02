@@ -97,7 +97,6 @@ main{
 }
 #team h2{
   margin: 100px 0px;
-  /* color: rgb(224, 104, 0); */
   font-size: 4rem;
   letter-spacing: 0.0425em;
 }
@@ -121,7 +120,6 @@ main{
 }
 
 .teamctr__member{
-  /* background: gray; */
   margin: 15px 0;
   border-radius: 5%
 }
@@ -196,22 +194,18 @@ main{
 
 /* Individual section ids */
 #header {
-  /* background-color: #183446; */
 }
 
 =======
 #about {
-  /* background-color: #046E8F; */
 }
 
 #team {
-  /* background-color: #1B3B6F; */
   height: auto;
   background-color: #3A506B;
   min-width: 100%;
 }
 #contact {
-  /* background-color: #0090C1; */
 }
 
 #contact h2 {
@@ -238,7 +232,6 @@ main{
     padding: 40px;
     margin: 0 auto;
     box-sizing: border-box;
-    /* box-shadow: 0 10px 10px rgba(0,0,0,.2); */
     border-radius: 10px;
   }
   .form-container h2{
