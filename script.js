@@ -1,5 +1,4 @@
 document.addEventListener("DOMContentLoaded", function(event) {//to start the script when DOM is ready
-	debugger;
 	scrollTo = (element) => { //functin for scrolling smoothly down the internal links when links are clicked
   		window.scroll({
     		behavior: 'smooth',
