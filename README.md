@@ -8,7 +8,7 @@ https://fac-13.github.io/JIKTDEVS/
 - We took a mobile first approach so the website is easily viewable on mobile phones, tablets and desktops.
 -  We have used a navigation bar so you can quickly move the sections of our website.
 
-##Process
+## Process
 
 ****28.02.18****
 
